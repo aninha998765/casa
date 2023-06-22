@@ -21,7 +21,7 @@
 }
 
 body{
-  font-family: 'Inter', sans-serif;
+  font-family: 'arial', sans-serif;
   background-color: var(--color-white);
   color: var(--color-white);
   margin: 0;
@@ -153,6 +153,7 @@ body{
   .instagram{
     width: 1.5em;
     padding: 2em;
+    
   }
   .contato{
     text-decoration: none;
@@ -189,6 +190,10 @@ body{
     margin-left: 5em;
   }
 
+  .titulo{
+  align-items: center;
+  font-family: 'ralway';
+  }
 
 .quadrado2{
   width: 200px;
@@ -269,220 +274,282 @@ body{
   .cor1{
     width: 130px;
     height: 115px;
-    margin-left: 4em;
+    margin-left: 4.5em;
     position: absolute;
-    top: 59%;
+    top: 62.7%;
     font-size: 80%;
-    color: #000000;
+    color: #968c8c;
+    align-items: center;
 
   }
 
     .preco1{
         width: 130px;
         height: 115px;
-        float: right;
-        right: 78.3%;
+        margin-left: 6.5em;
         position: absolute;
-        top: 64%;
-    font-size: 80%;
-        text-align: center;
+        top: 67%;
+      font-size: 80%;
+       align-items: center;
         color: #000000;
     }
   
   
   .fone2{
-    width: 130px;
-    height: 115px;
-    float: left;
-    left: 34.8%;
+    width: 140px;
+    height: 125px;
+    margin-left: 21.4em;
     position: absolute;
-    top: 32%;
+    top: 30%;
     align-items: center;
 }
 
 .titulo2{
   width: 130px;
-  height: 115px;
-  float: left;
-  left: 385px;
-  position: absolute;
-  top: 53%;
-  font-size: 70%;
-  color: #000000;
-  text-align: center;
+    height: 115px;
+    margin-left: 27.6em;
+    position: absolute;
+    top: 53%;
+    font-size: 80%;
+    color: black;
+    text-align: center;
 }
 
 .cor2{
   width: 130px;
-  height: 115px;
-  float: left;
-  left: 405px;
-  position: absolute;
-  top: 60%;
-  font-size: 70%;
-  color: #9b9999;
+    height: 115px;
+    margin-left: 28.5em;
+    position: absolute;
+    top: 62.7%;
+    font-size: 80%;
+    color: #968c8c;
+    align-items: center;
 }
 
-.valor2{
+.preco2{
   width: 130px;
   height: 115px;
-  float: left;
-  left: 385px;
+  margin-left: 30.6em;
   position: absolute;
-  top: 66%;
-  font-size: 75%;
-  text-align: center;
+  top: 67%;
+font-size: 80%;
+ align-items: center;
+  color: #000000;
 }
 
   .fone3{
-    width: 110px;
-    height: 105px;
-    float: left;
-    left: 710px;
+    width: 140px;
+    height: 125px;
+    margin-left: 42.5em;
     position: absolute;
-    top: 35%;
+    top: 30%;
+    align-items: center;
   }
   
   .titulo3{
     width: 130px;
     height: 115px;
-    float: left;
-    left: 690px;
+    margin-left: 53em;
     position: absolute;
     top: 53%;
-    font-size: 70%;
+    font-size: 80%;
+    color: black;
     text-align: center;
   }
   
   .cor3{
     width: 130px;
     height: 115px;
-    float: left;
-    left: 690px;
+    margin-left: 53.7em;
     position: absolute;
-    top: 60%;
-    font-size: 70%;
-    text-align: center;
-    color: grey
+    top: 62.7%;
+    font-size: 80%;
+    color: #968c8c;
+    align-items: center;
   }
 
-  .valor3{
+  .preco3{
     width: 130px;
     height: 115px;
-    float: left;
-    left: 693px;
+    margin-left: 55.6em;
     position: absolute;
-    top: 66%;
-    font-size: 75%;
-    text-align: center;
+    top: 67%;
+  font-size: 80%;
+   align-items: center;
+    color: #000000;
   }
   
 .fone4{
-  width: 120px;
-  height: 110px;
-  float: left;
-  left: 1010px;
+  width: 150px;
+  height: 135px;
+  margin-left: 61.8em;
   position: absolute;
-  top: 35%;
+  top: 30%;
+  align-items: center;
 }
 
 .titulo4{
   width: 130px;
   height: 115px;
-  float: left;
-  left: 998px;
+  margin-left: 77.8em;
   position: absolute;
   top: 53%;
-  font-size: 70%;
+  font-size: 80%;
+  color: black;
   text-align: center;
 }
 
 .cor4{
   width: 130px;
-  height: 115px;
-  float: left;
-  left: 999px;
-  position: absolute;
-  top: 60%;
-  font-size: 70%;
-  text-align: center;
-  color: grey
+    height: 115px;
+    margin-left: 80.4em;
+    position: absolute;
+    top: 62.7%;
+    font-size: 80%;
+    color: #968c8c;
+    align-items: center;
 }
 
-.valor4{
+.preco4{
   width: 130px;
   height: 115px;
-  float: left;
-  left: 995px;
+  margin-left: 80.5em;
   position: absolute;
-  top: 66%;
-  font-size: 75%;
-  text-align: center;
-}
-
-   
-  
-
-.botao4 {
-  position: absolute;
-  top: 75%;
-  left: 84%;
-  transform: translate(-50%, -50%);
-  padding: 5px 20px;
-  background-color: #001020;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
-}
-
-.botao:hover {
-background-color: #555;
+  top: 67%;
+font-size: 80%;
+ align-items: center;
+  color: #000000;
 }
 
 .botao1 {
-  position: absolute;
-  top: 75%;
-  left: 84%;
-  transform: translate(-980%, -50%);
-  padding: 5px 20px;
+  padding: 5.20px 20px;
+  border: 0;
+  border-radius: 100px;
   background-color: #001020;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  width: 100px;
+  height: 25px;
+  margin-left: 5.5em;
+  position: absolute;
+  top: 72%;
+  font-size: 12px;
+
+ 
+  
 }
 
-.botao:hover {
-background-color: #555;
+.botao1:hover {
+  background-color: #234463;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+  width: 100px;
+  height: 25px;
+  align-items: center;
 }
 
+.botao1:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+  width: 100px;
+  height: 25px;
+  align-items: center;
+}
+   
 .botao2 {
-  position: absolute;
-  top: 75%;
-  left: 85%;
-  transform: translate(-680%, -50%);
-  padding: 5px 20px;
+  padding: 5.20px 20px;
+  border: 0;
+  border-radius: 100px;
   background-color: #001020;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  width: 100px;
+  height: 25px;
+  margin-left: 30.8em;
+  position: absolute;
+  top: 72%;
+  font-size: 12px;
 }
 
-.botao:hover {
-background-color: #555;
+.botao2:hover {
+  background-color: #234463;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
+
+.botao2:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
 }
 
 .botao3 {
-  position: absolute;
-  top: 75%;
-  right: 40%;
-  transform: translate( 50%, -50%);
-  padding: 5px 20px;
+  padding: 5.20px 20px;
+  border: 0;
+  border-radius: 100px;
   background-color: #001020;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 8px;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  width: 100px;
+  height: 25px;
+  margin-left: 57.8em;
+  position: absolute;
+  top: 72%;
+  font-size: 12px;
 }
 
-.botao:hover {
-background-color: #555;
+.botao3:hover {
+  background-color: #234463;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
+
+.botao3:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
+}
+
+.botao4{
+  padding: 5.20px 20px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #001020;
+  color: #ffffff;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  width: 100px;
+  height: 25px;
+  margin-left: 84.5em;
+  position: absolute;
+  top: 72%;
+  font-size: 12px;
+}
+
+.botao4:hover {
+  background-color: #234463;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
+
+.botao4:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
 }
