@@ -189,36 +189,9 @@ body{
     margin-left: 5em;
   }
 
-  .quadrado1{
-    width: 200px;
-    height: 215px;
-    background-color: #D9D9D9;
-    margin: 60px;
-    display: inline-block;
-    padding-top: 99px;
-    border-radius: 8px;
-    position: absolute;
-    top: 18%;
-    margin-left: 5em;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-  
-  .quadrado2{
-    width: 200px;
-    height: 215px;
-    background-color: #D9D9D9;
-    margin: 60px;
-    display: inline-block;
-    padding-top: 99px;
-    border-radius: 8px;
-    position: absolute;
-    top: 18%;
-    margin-left: 25em;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
 
-  .quadrado3{
-    width: 200px;
+.quadrado2{
+  width: 200px;
     height: 215px;
     background-color: #D9D9D9;
     margin: 60px;
@@ -227,39 +200,66 @@ body{
     border-radius: 8px;
     position: absolute;
     top: 18%;
-    margin-left: 45em;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  }
-
-  .quadrado4{
-    width: 200px;
-    height: 215px;
-    background-color: #D9D9D9;
-    margin: 60px;
-    display: inline-block;
-    padding-top: 99px;
-    border-radius: 8px;
-    position: absolute;
-    top: 18%;
-    margin-left: 65em;
+    margin-left: 20em;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
-  
-.fone1{
+
+.quadrado3{
+  width: 200px;
+  height: 215px;
+  background-color: #D9D9D9;
+  margin: 60px;
+  display: inline-block;
+  padding-top: 99px;
+  border-radius: 8px;
+  position: absolute;
+  top: 18%;
+  margin-left: 40em;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.quadrado4{
+  width: 200px;
+  height: 215px;
+  background-color: #D9D9D9;
+  margin: 60px;
+  display: inline-block;
+  padding-top: 99px;
+  border-radius: 8px;
+  position: absolute;
+  top: 18%;
+  margin-left: 60em;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+.quadrado1{
+  width: 200px;
+    height: 215px;
+    background-color: #D9D9D9;
+    margin: 60px;
+    display: inline-block;
+    padding-top: 99px;
+    border-radius: 8px;
+    position: absolute;
+    top: 18%;
+    margin-left: 1em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+  .fone1{
     width: 150px;
     height: 130px;
-    float: right;
-    right: 77.5%;
+    margin-left: 2.3em;
     position: absolute;
     top: 30%;
     align-items: center;
     
   }
-  .titulo1{
+  .tfone1{
     width: 130px;
     height: 115px;
-    float: right;
-    right:  78.3%;
+    margin-left: 4em;
     position: absolute;
     top: 53%;
     font-size: 80%;
@@ -269,12 +269,11 @@ body{
   .cor1{
     width: 130px;
     height: 115px;
-    float: right;
-    right:  77.6%;
+    margin-left: 4em;
     position: absolute;
     top: 59%;
     font-size: 80%;
-    color: #9b9999;
+    color: #000000;
 
   }
 
@@ -290,50 +289,51 @@ body{
         color: #000000;
     }
   
-    .fone2{
-      width: 130px;
-      height: 115px;
-      float: left;
-      left: 34.8%;
-      position: absolute;
-      top: 32%;
-      align-items: center;
-  }
   
-  .titulo2{
+  .fone2{
     width: 130px;
     height: 115px;
     float: left;
-    left: 385px;
+    left: 34.8%;
     position: absolute;
-    top: 53%;
-    font-size: 70%;
-    color: #000000;
-    text-align: center;
-  }
-  
-  .cor2{
-    width: 130px;
-    height: 115px;
-    float: left;
-    left: 405px;
-    position: absolute;
-    top: 60%;
-    font-size: 70%;
-    color: #9b9999;
-  }
+    top: 32%;
+    align-items: center;
+}
 
-  .valor2{
-    width: 130px;
-    height: 115px;
-    float: left;
-    left: 385px;
-    position: absolute;
-    top: 66%;
-    font-size: 75%;
-    text-align: center;
-  }
-  
+.titulo2{
+  width: 130px;
+  height: 115px;
+  float: left;
+  left: 385px;
+  position: absolute;
+  top: 53%;
+  font-size: 70%;
+  color: #000000;
+  text-align: center;
+}
+
+.cor2{
+  width: 130px;
+  height: 115px;
+  float: left;
+  left: 405px;
+  position: absolute;
+  top: 60%;
+  font-size: 70%;
+  color: #9b9999;
+}
+
+.valor2{
+  width: 130px;
+  height: 115px;
+  float: left;
+  left: 385px;
+  position: absolute;
+  top: 66%;
+  font-size: 75%;
+  text-align: center;
+}
+
   .fone3{
     width: 110px;
     height: 105px;
@@ -377,97 +377,112 @@ body{
     text-align: center;
   }
   
-  .fone4{
-    width: 120px;
-    height: 110px;
-    float: left;
-    left: 1010px;
-    position: absolute;
-    top: 35%;
-  }
-  
-  .titulo4{
-    width: 130px;
-    height: 115px;
-    float: left;
-    left: 998px;
-    position: absolute;
-    top: 53%;
-    font-size: 70%;
-    text-align: center;
-  }
-  
-  .cor4{
-    width: 130px;
-    height: 115px;
-    float: left;
-    left: 999px;
-    position: absolute;
-    top: 60%;
-    font-size: 70%;
-    text-align: center;
-    color: grey
-  }
-  
-  .valor4{
-    width: 130px;
-    height: 115px;
-    float: left;
-    left: 995px;
-    position: absolute;
-    top: 66%;
-    font-size: 75%;
-    text-align: center;
-  }
+.fone4{
+  width: 120px;
+  height: 110px;
+  float: left;
+  left: 1010px;
+  position: absolute;
+  top: 35%;
+}
 
-  button {
-    padding: 3px 10px;
-    border: unset;
-    border-radius: 15px;
-    color: #001020;
-    z-index: 1;
-    background: #e8e8e8;
-    position: relative;
-    font-weight: 1000;
-    font-size: 17px;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    transition: all 250ms;
-    overflow: hidden;
-    position: absolute;
-    top: 70%;
-    float: right;
-    right: 80%;
-    
+.titulo4{
+  width: 130px;
+  height: 115px;
+  float: left;
+  left: 998px;
+  position: absolute;
+  top: 53%;
+  font-size: 70%;
+  text-align: center;
+}
 
-   }
-   
-   button::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 0;
-    border-radius: 15px;
-    background-color: #001020;
-    z-index: -1;
-    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
-    transition: all 250ms
-   }
+.cor4{
+  width: 130px;
+  height: 115px;
+  float: left;
+  left: 999px;
+  position: absolute;
+  top: 60%;
+  font-size: 70%;
+  text-align: center;
+  color: grey
+}
 
-   /* .fone-titulo, fone-cor, fone-preco {
-    color: #000000;
-   } */
-   
-   button:hover {
-    color: #e8e8e8;
-   }
-   
-   button:hover::before {
-    width: 100%;
-   }
+.valor4{
+  width: 130px;
+  height: 115px;
+  float: left;
+  left: 995px;
+  position: absolute;
+  top: 66%;
+  font-size: 75%;
+  text-align: center;
+}
 
+   
   
-   
+
+.botao4 {
+  position: absolute;
+  top: 75%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+  padding: 5px 20px;
+  background-color: #001020;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.botao:hover {
+background-color: #555;
+}
+
+.botao1 {
+  position: absolute;
+  top: 75%;
+  left: 84%;
+  transform: translate(-980%, -50%);
+  padding: 5px 20px;
+  background-color: #001020;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.botao:hover {
+background-color: #555;
+}
+
+.botao2 {
+  position: absolute;
+  top: 75%;
+  left: 85%;
+  transform: translate(-680%, -50%);
+  padding: 5px 20px;
+  background-color: #001020;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.botao:hover {
+background-color: #555;
+}
+
+.botao3 {
+  position: absolute;
+  top: 75%;
+  right: 40%;
+  transform: translate( 50%, -50%);
+  padding: 5px 20px;
+  background-color: #001020;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.botao:hover {
+background-color: #555;
+}
